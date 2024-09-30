@@ -47,3 +47,7 @@ jobs:
 
       - name: Run a script
         run: xvfb-run node bypasscf.js
+
+      - uses: gautamkrishnar/keepalive-workflow@v2
+        with:
+          use_api: false
